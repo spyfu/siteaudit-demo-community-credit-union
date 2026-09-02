@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "sampleId": "community-credit-union",
+  "sourceFixtureId": "p3-canary-community-credit-union",
+  "nestedPath": "/banking/checking/",
+  "repository": "spyfu/siteaudit-demo-community-credit-union",
+  "cloudflarePagesProject": "siteaudit-demo-community-credit-union",
+  "productionBranch": "demo-01",
+  "publicUrl": "https://siteaudit-demo-community-credit-union.pages.dev/",
+  "editUrl": "https://github.com/spyfu/siteaudit-demo-community-credit-union/edit/demo-01/siteaudit-head.html"
+}

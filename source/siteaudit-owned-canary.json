@@ -1,0 +1,72 @@
+{
+  "id": "p3-canary-community-credit-union",
+  "reviewPacket": "tests/fixtures/owned-canary-fleet.md",
+  "profile": "community-credit-union",
+  "layout": "finance",
+  "surfaceModel": "credit union marketing, rates, branch, and education",
+  "provider": "cloudflare-pages",
+  "status": "public",
+  "owner": "ops",
+  "url": "https://p3-canary-community-credit-union.xlpha.com/",
+  "stack": "legacy-aspnet",
+  "install": "both",
+  "pageCount": 5,
+  "representativePaths": [
+    "/",
+    "/banking/checking/",
+    "/rates/mortgage/",
+    "/branches/ballard/"
+  ],
+  "pages": [
+    {
+      "route": "/",
+      "title": "Harborline Community Credit Union | Checking, home loans, and neighborhood branches",
+      "canonical": "https://p3-canary-community-credit-union.xlpha.com/",
+      "quirks": [
+        "rate-query-links",
+        "guide-to-product-loop"
+      ],
+      "eyebrow": "Member-owned banking"
+    },
+    {
+      "route": "/banking/checking/",
+      "title": "Checking accounts | Harborline Community Credit Union",
+      "canonical": "https://p3-canary-community-credit-union.xlpha.com/banking/",
+      "quirks": [
+        "canonical-to-banking-hub",
+        "duplicate-checking-copy"
+      ],
+      "eyebrow": "Everyday banking"
+    },
+    {
+      "route": "/rates/mortgage/",
+      "title": "Mortgage rates and first-home guidance | Harborline Community Credit Union",
+      "canonical": "https://p3-canary-community-credit-union.xlpha.com/rates/mortgage/",
+      "quirks": [
+        "canonical-to-rates-hub",
+        "rate-sheet-anchor-links"
+      ],
+      "eyebrow": "Home lending"
+    },
+    {
+      "route": "/branches/ballard/",
+      "title": "Ballard branch | Harborline Community Credit Union",
+      "canonical": "https://p3-canary-community-credit-union.xlpha.com/branches/ballard/",
+      "quirks": [
+        "shared-description-with-checking",
+        "branch-to-product-loop"
+      ],
+      "eyebrow": "Neighborhood branch"
+    },
+    {
+      "route": "/learn/first-home-buying/",
+      "title": "First-home buying guide | Harborline Community Credit Union",
+      "canonical": null,
+      "quirks": [
+        "missing-canonical",
+        "guide-to-rate-loop"
+      ],
+      "eyebrow": "Learning center"
+    }
+  ]
+}
